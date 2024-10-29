@@ -68,6 +68,8 @@ video {
     }
 }
 
+/* TITLES */
+
 #Title {
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
@@ -86,6 +88,75 @@ video {
     text-align: center; 
     margin-top: 0.5vh; 
 }
+
+#newsTitle {
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+    font-size: 14vh;
+    text-align: left;
+    margin-left: 15vh;
+    margin-bottom: 0.2vh;
+    margin-top: 10vh; 
+} 
+
+#secondNewsTitle {
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif; 
+    font-weight: 10; 
+    font-size: 6vh; 
+    text-align: left; 
+    margin-left: 15vh;
+    margin-top: 0.5vh; 
+}
+
+
+#aboutTitle {
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+    font-size: 14vh;
+    text-align: left;
+    margin-left: 15vh;
+    margin-bottom: 0.2vh;
+    margin-top: 10vh; 
+} 
+
+#secondAboutTitle {
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif; 
+    font-weight: 10; 
+    font-size: 6vh; 
+    text-align: left; 
+    margin-left: 15vh;
+    margin-top: 0.5vh; 
+}
+
+
+#contactTitle {
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+    font-size: 14vh;
+    text-align: left;
+    margin-left: 15vh;
+    margin-bottom: 0.2vh;
+    margin-top: 10vh; 
+} 
+
+#secondContactTitle {
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif; 
+    font-weight: 10; 
+    font-size: 6vh; 
+    text-align: left; 
+    margin-left: 15vh;
+    margin-top: 0.5vh; 
+}
+
+
+
+/* TITLES */
 
 #buttons {
     align-items: center;
@@ -204,6 +275,33 @@ video {
         font-size: 4vh; 
     }
 
+    #newsTitle {
+        font-size: 10vh; 
+        margin-top: 15vh;
+    }
+
+    #secondNewsTitle {
+        font-size: 4vh;
+    }
+
+    #aboutTitle {
+        font-size: 10vh; 
+        margin-top: 15vh;
+    }
+
+    #secondAboutTitle {
+        font-size: 4vh;
+    }
+
+    #contactTitle {
+        font-size: 10vh; 
+        margin-top: 15vh;
+    }
+
+    #secondContactTitle {
+        font-size: 4vh;
+    }
+
     #buttons {
         flex-direction: column; 
         align-items: center; 
@@ -240,6 +338,30 @@ video {
 
     #secondTitle {
         font-size: 3vh; 
+    }
+
+    #newsTitle {
+        font-size: 8vh;
+    }
+
+    #secondNewsTitle {
+        font-size: 3vh; 
+    }
+
+    #aboutTitle {
+        font-size: 8vh;
+    }
+
+    #secondAboutTitle {
+        font-size: 3vh;
+    }
+
+    #contactTitle {
+        font-size: 8vh;
+    }
+
+    #secondContactTitle {
+        font-size: 3vh;
     }
 
     #buttons {
